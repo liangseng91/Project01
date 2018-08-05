@@ -6,6 +6,7 @@ using UnityEngine;
 public abstract class BaseDamage : MonoBehaviour
 {
     private Transform tempTransform;
+
     public Transform TempTransform
     {
         get
@@ -15,7 +16,9 @@ public abstract class BaseDamage : MonoBehaviour
             return tempTransform;
         }
     }
+
     private Rigidbody tempRigidbody;
+
     public Rigidbody TempRigidbody
     {
         get

@@ -397,7 +397,7 @@ public class CharacterEntity : BaseCharacterEntity
         }
     }
 
-    IEnumerator DoAttackActionRoutine()
+    IEnumerator DoAttackActionRoutine() // Normal Attack
     {
         IsDoingAction = true;
         var manager = Manager;
@@ -442,15 +442,17 @@ public class CharacterEntity : BaseCharacterEntity
         IsDoingAction = false;
     }
 
-    IEnumerator DoSkillActionRoutine()
+    IEnumerator DoSkillActionRoutine() // Skill Attack
     {
         IsDoingAction = true;
         var skill = SelectedSkill.CastedSkill;
         var skillCastAnimation = skill.castAnimation as SkillCastAnimationData;
         var manager = Manager;
         // Cast
+        /* Remove moving to center when use range skills
         if (skillCastAnimation.GetCastAtMapCenter())
             yield return MoveTo(Manager.MapCenterPosition, Manager.doActionMoveSpeed);
+        */
         var castEffects = skillCastAnimation.GetCastEffects();
         var effects = new List<GameEffect>();
         if (castEffects != null)
