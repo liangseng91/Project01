@@ -35,7 +35,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 
+    variableCategoryIDs: 00000000
   events:
   - ButtonPressed
   - Cancel
@@ -48,6 +48,9 @@ MonoBehaviour:
   - pressed
   - paused
   - MoveTo
+  - toGetBodyHit
+  - toBackHit
+  - toGetHit
 --- !u!1002 &11400001
 EditorExtensionImpl:
   serializedVersion: 6
