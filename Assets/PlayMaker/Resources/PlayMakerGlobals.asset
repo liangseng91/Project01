@@ -20,7 +20,13 @@ MonoBehaviour:
       networkSync: 0
       value: 0
     intVariables: []
-    boolVariables: []
+    boolVariables:
+    - useVariable: 1
+      name: isSheathed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     stringVariables: []
     vector2Variables: []
     vector3Variables: []
@@ -35,7 +41,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000
+    variableCategoryIDs: 0000000000000000
   events:
   - ButtonPressed
   - Cancel
@@ -51,6 +57,8 @@ MonoBehaviour:
   - toGetBodyHit
   - toBackHit
   - toGetHit
+  - toJump
+  - toFall
 --- !u!1002 &11400001
 EditorExtensionImpl:
   serializedVersion: 6
