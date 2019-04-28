@@ -49,7 +49,7 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			if (image==null) return;
 
-			image.sprite = (Sprite)sprite.Value;
+			image.sprite = sprite.Value as Sprite;
 		}
 
 		public override void OnExit()

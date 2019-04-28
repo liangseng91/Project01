@@ -73,7 +73,10 @@ namespace HutongGames.PlayMaker
             {
                 EditorUtility.SetDirty(fsm.Owner);
 #if !UNITY_PRE_5_3
-                UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(fsm.Owner.gameObject.scene);
+                if (fsm.Owner.gameObject != null)
+                {
+                    UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(fsm.Owner.gameObject.scene);
+                }
 #elif !UNITY_PRE_5_0
                 // Not sure if we need to do this...?
                 UnityEditor.EditorApplication.MarkSceneDirty();
