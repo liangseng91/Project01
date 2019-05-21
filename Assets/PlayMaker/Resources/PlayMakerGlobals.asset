@@ -15,40 +15,16 @@ MonoBehaviour:
   variables:
     floatVariables: []
     intVariables: []
-    boolVariables:
-    - useVariable: 1
-      name: raycast_did_hit (global)
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 0
+    boolVariables: []
     stringVariables: []
     vector2Variables: []
-    vector3Variables:
-    - useVariable: 1
-      name: hit_point (global)
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {x: 0, y: 0, z: 0}
-    - useVariable: 1
-      name: touched_location (global)
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {x: 0, y: 0, z: 0}
+    vector3Variables: []
     colorVariables: []
     rectVariables: []
     quaternionVariables: []
     gameObjectVariables:
     - useVariable: 1
-      name: currentObj
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: {fileID: 0}
-    - useVariable: 1
-      name: portalObj
+      name: Character01
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -60,5 +36,9 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000
-  events: []
+    variableCategoryIDs: 00000000
+  events:
+  - toDamage
+  - C1_Skill1
+  - OnClick
+  - C1_Skill2
