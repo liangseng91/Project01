@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class spawnParticle : MonoBehaviour
+public class SpawnParticle : MonoBehaviour
 {
     public void Spawn(string particleName) {
         GameObject particleToSpawn = Resources.Load<GameObject>("VFXPrefabs/" + particleName);

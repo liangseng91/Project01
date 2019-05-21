@@ -74,15 +74,13 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.SetIntValue
         - HutongGames.PlayMaker.Actions.Trigger2dEvent
         customNames:
         - 
-        - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000003000000
-        actionHashCodes: 603dd90549491604
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 49491604
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -118,19 +116,7 @@ MonoBehaviour:
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
-        fsmIntParams:
-        - useVariable: 1
-          name: baseDamage
-          tooltip: 
-          showInInspector: 1
-          networkSync: 0
-          value: 20
-        - useVariable: 1
-          name: baseDamage
-          tooltip: 
-          showInInspector: 1
-          networkSync: 0
-          value: 20
+        fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
@@ -139,23 +125,20 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - toSendDamage
-        byteData: 0000000000
+        byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1000000010000000010000001400000007000000120000001700000013000000
+        paramDataType: 1400000007000000120000001700000013000000
         paramName:
-        - intVariable
-        - intValue
-        - everyFrame
         - gameObject
         - trigger
         - collideTag
         - sendEvent
         - storeCollider
-        paramDataPos: 0000000001000000000000000000000001000000000000000000000000000000
-        paramByteDataSize: 0000000000000000010000000000000004000000000000000000000000000000
+        paramDataPos: 0000000000000000000000000000000000000000
+        paramByteDataSize: 0000000004000000000000000000000000000000
     - name: Destroy
       description: 
       colorIndex: 0
