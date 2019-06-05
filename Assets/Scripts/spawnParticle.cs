@@ -6,7 +6,7 @@ public class SpawnParticle : MonoBehaviour
 {
     public void Spawn(string particleName) {
         GameObject particleToSpawn = Resources.Load<GameObject>("VFXPrefabs/" + particleName);
-
-        Instantiate(particleToSpawn, transform.position, transform.rotation);
+        GameObject particleSpawned = Instantiate(particleToSpawn, transform.position, transform.rotation);
+        particleSpawned.transform.parent = transform;
     }
 }
