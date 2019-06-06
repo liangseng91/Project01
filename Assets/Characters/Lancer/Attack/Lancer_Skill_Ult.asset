@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   abilityName: Dragon Rush
   abilityIcon: {fileID: 2800000, guid: 891f5cae5e1072e4cb1ca953c4a71587, type: 3}
-  Animation: {fileID: 7400000, guid: 9302385f4ce4d8f4d9a82ab2093fe229, type: 2}
+  Animation: {fileID: 0}
   animationDuration: 3
   cooldown: 40
   skill_SP: 50

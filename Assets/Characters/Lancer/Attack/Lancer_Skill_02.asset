@@ -17,4 +17,4 @@ MonoBehaviour:
   Animation: {fileID: 7400000, guid: 9302385f4ce4d8f4d9a82ab2093fe229, type: 2}
   animationDuration: 1.5
   cooldown: 6
-  skill_SP: 10
+  skill_SP: 50

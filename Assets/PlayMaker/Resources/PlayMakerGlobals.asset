@@ -63,7 +63,9 @@ MonoBehaviour:
     variableCategoryIDs: 0000000000000000000000000000000000000000
   events:
   - toDamage
-  - C1_Skill1
   - OnClick
-  - C1_Skill2
   - toCostSP
+  - toDisableButtons
+  - SkillUlt
+  - Skill1
+  - Skill2
