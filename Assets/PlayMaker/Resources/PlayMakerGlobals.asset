@@ -13,27 +13,9 @@ MonoBehaviour:
   m_Name: PlayMakerGlobals
   m_EditorClassIdentifier: 
   variables:
-    floatVariables:
-    - useVariable: 1
-      name: char01_modifier_ATK
-      tooltip: 
-      showInInspector: 1
-      networkSync: 0
-      value: 1
+    floatVariables: []
     intVariables: []
-    boolVariables:
-    - useVariable: 1
-      name: char01_isBuffedATK
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 0
-    - useVariable: 1
-      name: char01_isDebuffATK
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 0
+    boolVariables: []
     stringVariables: []
     vector2Variables: []
     vector3Variables: []
@@ -60,7 +42,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000
   events:
   - toDamage
   - OnClick
