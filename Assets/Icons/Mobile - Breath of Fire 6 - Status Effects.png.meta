@@ -1,0 +1,2611 @@
+fileFormatVersion: 2
+guid: e656891350b0c6c4499bd8275395db22
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mobile - Breath of Fire 6 - Status Effects_0
+    21300002: Mobile - Breath of Fire 6 - Status Effects_1
+    21300004: Mobile - Breath of Fire 6 - Status Effects_2
+    21300006: Mobile - Breath of Fire 6 - Status Effects_3
+    21300008: Mobile - Breath of Fire 6 - Status Effects_4
+    21300010: Mobile - Breath of Fire 6 - Status Effects_5
+    21300012: Mobile - Breath of Fire 6 - Status Effects_6
+    21300014: Mobile - Breath of Fire 6 - Status Effects_7
+    21300016: Mobile - Breath of Fire 6 - Status Effects_8
+    21300018: Mobile - Breath of Fire 6 - Status Effects_9
+    21300020: Mobile - Breath of Fire 6 - Status Effects_10
+    21300022: Mobile - Breath of Fire 6 - Status Effects_11
+    21300024: Mobile - Breath of Fire 6 - Status Effects_12
+    21300026: Mobile - Breath of Fire 6 - Status Effects_13
+    21300028: Mobile - Breath of Fire 6 - Status Effects_14
+    21300030: Mobile - Breath of Fire 6 - Status Effects_15
+    21300032: Mobile - Breath of Fire 6 - Status Effects_16
+    21300034: Mobile - Breath of Fire 6 - Status Effects_17
+    21300036: Mobile - Breath of Fire 6 - Status Effects_18
+    21300038: Mobile - Breath of Fire 6 - Status Effects_19
+    21300040: Mobile - Breath of Fire 6 - Status Effects_20
+    21300042: Mobile - Breath of Fire 6 - Status Effects_21
+    21300044: Mobile - Breath of Fire 6 - Status Effects_22
+    21300046: Mobile - Breath of Fire 6 - Status Effects_23
+    21300048: Mobile - Breath of Fire 6 - Status Effects_24
+    21300050: Mobile - Breath of Fire 6 - Status Effects_25
+    21300052: Mobile - Breath of Fire 6 - Status Effects_26
+    21300054: Mobile - Breath of Fire 6 - Status Effects_27
+    21300056: Mobile - Breath of Fire 6 - Status Effects_28
+    21300058: Mobile - Breath of Fire 6 - Status Effects_29
+    21300060: Mobile - Breath of Fire 6 - Status Effects_30
+    21300062: Mobile - Breath of Fire 6 - Status Effects_31
+    21300064: Mobile - Breath of Fire 6 - Status Effects_32
+    21300066: Mobile - Breath of Fire 6 - Status Effects_33
+    21300068: Mobile - Breath of Fire 6 - Status Effects_34
+    21300070: Mobile - Breath of Fire 6 - Status Effects_35
+    21300072: Mobile - Breath of Fire 6 - Status Effects_36
+    21300074: Mobile - Breath of Fire 6 - Status Effects_37
+    21300076: Mobile - Breath of Fire 6 - Status Effects_38
+    21300078: Mobile - Breath of Fire 6 - Status Effects_39
+    21300080: Mobile - Breath of Fire 6 - Status Effects_40
+    21300082: Mobile - Breath of Fire 6 - Status Effects_41
+    21300084: Mobile - Breath of Fire 6 - Status Effects_42
+    21300086: Mobile - Breath of Fire 6 - Status Effects_43
+    21300088: Mobile - Breath of Fire 6 - Status Effects_44
+    21300090: Mobile - Breath of Fire 6 - Status Effects_45
+    21300092: Mobile - Breath of Fire 6 - Status Effects_46
+    21300094: Mobile - Breath of Fire 6 - Status Effects_47
+    21300096: Mobile - Breath of Fire 6 - Status Effects_48
+    21300098: Mobile - Breath of Fire 6 - Status Effects_49
+    21300100: Mobile - Breath of Fire 6 - Status Effects_50
+    21300102: Mobile - Breath of Fire 6 - Status Effects_51
+    21300104: Mobile - Breath of Fire 6 - Status Effects_52
+    21300106: Mobile - Breath of Fire 6 - Status Effects_53
+    21300108: Mobile - Breath of Fire 6 - Status Effects_54
+    21300110: Mobile - Breath of Fire 6 - Status Effects_55
+    21300112: Mobile - Breath of Fire 6 - Status Effects_56
+    21300114: Mobile - Breath of Fire 6 - Status Effects_57
+    21300116: Mobile - Breath of Fire 6 - Status Effects_58
+    21300118: Mobile - Breath of Fire 6 - Status Effects_59
+    21300120: Mobile - Breath of Fire 6 - Status Effects_60
+    21300122: Mobile - Breath of Fire 6 - Status Effects_61
+    21300124: Mobile - Breath of Fire 6 - Status Effects_62
+    21300126: Mobile - Breath of Fire 6 - Status Effects_63
+    21300128: Mobile - Breath of Fire 6 - Status Effects_64
+    21300130: Mobile - Breath of Fire 6 - Status Effects_65
+    21300132: Mobile - Breath of Fire 6 - Status Effects_66
+    21300134: Mobile - Breath of Fire 6 - Status Effects_67
+    21300136: Mobile - Breath of Fire 6 - Status Effects_68
+    21300138: Mobile - Breath of Fire 6 - Status Effects_69
+    21300140: Mobile - Breath of Fire 6 - Status Effects_70
+    21300142: Mobile - Breath of Fire 6 - Status Effects_71
+    21300144: Mobile - Breath of Fire 6 - Status Effects_72
+    21300146: Mobile - Breath of Fire 6 - Status Effects_73
+    21300148: Mobile - Breath of Fire 6 - Status Effects_74
+    21300150: Mobile - Breath of Fire 6 - Status Effects_75
+    21300152: Mobile - Breath of Fire 6 - Status Effects_76
+    21300154: Mobile - Breath of Fire 6 - Status Effects_77
+    21300156: Mobile - Breath of Fire 6 - Status Effects_78
+    21300158: Mobile - Breath of Fire 6 - Status Effects_79
+    21300160: Mobile - Breath of Fire 6 - Status Effects_80
+    21300162: Mobile - Breath of Fire 6 - Status Effects_81
+    21300164: Mobile - Breath of Fire 6 - Status Effects_82
+    21300166: Mobile - Breath of Fire 6 - Status Effects_83
+    21300168: Mobile - Breath of Fire 6 - Status Effects_84
+    21300170: Mobile - Breath of Fire 6 - Status Effects_85
+    21300172: Mobile - Breath of Fire 6 - Status Effects_86
+    21300174: Mobile - Breath of Fire 6 - Status Effects_87
+    21300176: Mobile - Breath of Fire 6 - Status Effects_88
+    21300178: Mobile - Breath of Fire 6 - Status Effects_89
+    21300180: Mobile - Breath of Fire 6 - Status Effects_90
+    21300182: Mobile - Breath of Fire 6 - Status Effects_91
+    21300184: Mobile - Breath of Fire 6 - Status Effects_92
+    21300186: Mobile - Breath of Fire 6 - Status Effects_93
+    21300188: Mobile - Breath of Fire 6 - Status Effects_94
+    21300190: Mobile - Breath of Fire 6 - Status Effects_95
+    21300192: Mobile - Breath of Fire 6 - Status Effects_96
+    21300194: Mobile - Breath of Fire 6 - Status Effects_97
+    21300196: Mobile - Breath of Fire 6 - Status Effects_98
+    21300198: Mobile - Breath of Fire 6 - Status Effects_99
+    21300200: Mobile - Breath of Fire 6 - Status Effects_100
+    21300202: Mobile - Breath of Fire 6 - Status Effects_101
+    21300204: Mobile - Breath of Fire 6 - Status Effects_102
+    21300206: Mobile - Breath of Fire 6 - Status Effects_103
+    21300208: Mobile - Breath of Fire 6 - Status Effects_104
+    21300210: Mobile - Breath of Fire 6 - Status Effects_105
+    21300212: Mobile - Breath of Fire 6 - Status Effects_106
+    21300214: Mobile - Breath of Fire 6 - Status Effects_107
+    21300216: Mobile - Breath of Fire 6 - Status Effects_108
+    21300218: Mobile - Breath of Fire 6 - Status Effects_109
+    21300220: Mobile - Breath of Fire 6 - Status Effects_110
+    21300222: Mobile - Breath of Fire 6 - Status Effects_111
+    21300224: Mobile - Breath of Fire 6 - Status Effects_112
+    21300226: Mobile - Breath of Fire 6 - Status Effects_113
+    21300228: Mobile - Breath of Fire 6 - Status Effects_114
+    21300230: Mobile - Breath of Fire 6 - Status Effects_115
+    21300232: Mobile - Breath of Fire 6 - Status Effects_116
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eba0bdd089f42444b03d20863fdc2a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2436b2b24e42734b834c92fbfe6ee87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23118dcec7e9f4340a502ef76aca2aef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f6adce125f0bd44a6250010bcb3164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dbd9e44a8a1774e89226c0c77cb70b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8304d67bef527b46962a33601e7a0fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b2c4d1101815e4c8ab686a0424210c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dc8c97e1fa85344861dfa1b45ccaab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e74e84cf8e9d4040a3c0dc03eff8d3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_9
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b734110869d1a104d827caa37ee0b53c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_10
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19c5d15df95b64489be2a147520b2cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897db6c4cc9244842be69c8940cb1a9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_12
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 273
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269679ece2338eb4f897cd0c81c3335f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 239
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b2ee843a2eb18479852e88a45228a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_14
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 239
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb80c1d66baa524084ec419fc725c9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 239
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb51ad3d03e58b449f1b0fd8e55c757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 239
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc9b02b860777e44a548ca198cd03e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_17
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 239
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f18af1f73638bf43a63cce5e4e6238a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_18
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 239
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a75efacc6dc7474c824d7377f90952e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_19
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 239
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b318104591b55ea4394c3143f1f8b2a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_20
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 239
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da314e86f6c6584994cf435696a5204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_21
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 239
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517332cef84bcda4c99660b9c1b06e26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_22
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 239
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed69f06d929edad488734b404b2d1ccf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_23
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 239
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6cafe90381d1847bc8186136dcd6c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_24
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 239
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e16691a8e878f4ea710c50b5905014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_25
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 239
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140620a049531a648b010f1d5e5d157e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 205
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f523a7bb205cb164f8de14998d44bc46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_27
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 205
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719d89789a148e443af0ba868ec802b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_28
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 205
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50efea238b509b54cb1c3f22f16bcd93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_29
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 205
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7c3fee82903ff4ab9631014a7996fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_30
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 205
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60695a8e4e4ae664083901911408191d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_31
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 205
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce27121cbfe35b94694e11c52777d6e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_32
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 205
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1353a1cba5e5d14a8b5f7b25cf3e7da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_33
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 205
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e23a62e5eb03448822d3a43e31abf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_34
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 205
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc0731fea72f094d832504c19b57cdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_35
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 205
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc439a9e2c316940ab952f34d6c1d93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_36
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 205
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e42243a3ee915d45bcf7388c85ebcef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_37
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 205
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a69a1d9824c8b7419c871bc4ba2c527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_38
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 205
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6004bb2454ac0344fadf23d6cb6dec4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a922081a6fdcfb4588123c20e97d994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_40
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310cf1024b1f39145a3c30912b4e5010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_41
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b71f11fecf97c48add1f760b0c82f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_42
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b19e6d737cd0549ad7f99d4abfbbe9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_43
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741feb4f50e8c9f4a9331e5939f77ee0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_44
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c688a561d341e4d9ea3b8bb367d455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_45
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb1ec5cfe1181a4faa53dccdf60e24d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_46
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9738f5def235564d98b2d7fdd209d6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_47
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44c9de03b735a245b022016b0cacc44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_48
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0741ea3c64e780a4fb4f242aa0f9213b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_49
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3d001dfb37d26438a182bf621cc759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_50
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814693bf3832e994a8e75468285ce2ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_51
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42afdd1e13aad254bb520bac54ec9347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7cb831c43812f46ac138b55fe460c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_53
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d033413401fc944994e0f0298e9ec2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_54
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ebed2388afec048b8a0478bd7ddca4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_55
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1227f87e43b6214284ece87345234f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_56
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efc00ba2b408804baad664311b91047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_57
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40840ba2af3d59c488d99054d71450ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_58
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1976d0ed0bdf9a499e6e0ef4eaa64cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_59
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350961cea7203e541941d5cf2a186aad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_60
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512000f0e4fdfc84a8ef6dc7f788f474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_61
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7eeb045839a3d4ba207480b5bd6f9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_62
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034d32202b5b8b54083d40fdf82313ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_63
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd33cb90d5409d54c8b35a5da1d72326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_64
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 137
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c057f085e8d83a347bc142051e8791b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_65
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174f0d5e5cf0d28448b6bc9e287ec9d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_66
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42333180c4ac4f4499972a22c5ad560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_67
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa982f2602f202419480e82b550dfbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_68
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5db2f9f743db2446bd0c6453617deed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_69
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd42537706d79f5499df06da6f1aab23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_70
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2096aecdee09dc4f8c799db971130f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_71
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8667cb9c788b1be478f77bdc33923d42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_72
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86908cf78432bc4186da2ee4f1331dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_73
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8db98f1d2574c4d960b476f5fa4683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_74
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1905183f0f4be4e9bf66910d82fb1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_75
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd90f675058226d4db693de11950dcfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_76
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dead70437a518d14aa1e93033bb6eec7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_77
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96afa9b3d3d918d44886e6cdd23f3435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_78
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6ce5c63702c274d8007d65239af6bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_79
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 69
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673e8de6dd97fca4f867e7853f1a169e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_80
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 69
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b7d3a538ffd554abbca8e2e10e4b4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_81
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 69
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951b6ef5e8b0a9f4e8918f8f4619655a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_82
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 69
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20c2543806bee74c9e1e8440f127021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_83
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 69
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1556e42e0643b458b9bc0703bc1681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_84
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 69
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee171b747cf5e449aeddd385d0f3370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_85
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 69
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b1480dc94675d4288ff22600cedbda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_86
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 69
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612accc7d51ca274795effb96fb97ef3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_87
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 69
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaddde47cd8610a4abd2c58ddfe94a6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_88
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 69
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6de825e34afcc4590305f8cc7c48d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_89
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 69
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d703f3895ecf9cb4fa6a883b5be0cfae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_90
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 69
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b0869c71ad87748bfd8f429ac37d3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_91
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 35
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118c9652730858f4d91c611aeb3e582f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_92
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00126787de0b6354381d7f690131d173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_93
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 35
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f90d99a0fcf62842a19801c4ee1423b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_94
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 35
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647e3f8a7af6417438ebe03485daacd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_95
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 35
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e20212447244f943be52b9e45fc4c6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_96
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 35
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7ba541adfbdcc42a483b500dda9655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_97
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 35
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f3691847b9a2e46873c2dd96ccede1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_98
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 35
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69a7b000b8ebb048bb226a1db696761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_99
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 35
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc39596d3283d04493a885382f00679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_100
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 35
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b6263b03bc50248bda6e9511d0bb90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_101
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 35
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45e1c9b36f69ba45963ae209a8c3e96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_102
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 35
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987320766ab99b6408f335bf7c2db945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_103
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 35
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fac16167c0f7044adc67c6aae4f44b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00a5054cc3c29e46be2125f8aa6fec0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_105
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c38a5afe884d29468c1507b194a2987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_106
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499dbc5161b67e04ab957719fd1db8ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_107
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3292f5367472ae242936ee8522f1a03b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_108
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5423dfe06b76805438957b1dd7480eb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_109
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffbd42143c7cfb4b90dc59ed093d460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_110
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e264fc7286c6ac448c704ae66c04a96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_111
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445a5dbff509be9408655c27edaad3da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_112
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a28fbf6075af84a89c5bd84a04b495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_113
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744f8f9e92161294190ce266e0925514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_114
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb53d8c978868d438b902f051171c2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_115
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa48e1b4cb255874781e74a268ba800f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Breath of Fire 6 - Status Effects_116
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73f4550823b62047927321a57dce675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c75a0589be051b44bb4bf1a66899840f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
