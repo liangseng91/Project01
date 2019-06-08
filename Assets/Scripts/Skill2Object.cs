@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SkillObject : MonoBehaviour
+public class Skill2Object : MonoBehaviour
 {
     public Skill skill;
 

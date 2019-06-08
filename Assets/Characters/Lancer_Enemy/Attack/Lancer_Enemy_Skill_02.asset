@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8fd7701ac3cf20744b717172f8cdbece, type: 3}
-  m_Name: Lancer_Skill_01
+  m_Name: Lancer_Enemy_Skill_02
   m_EditorClassIdentifier: 
-  abilityName: Lightning Spear
-  abilityIcon: {fileID: 2800000, guid: d5e79e0e2fb320c4b96a70f7a5cad5d3, type: 3}
+  abilityName: Divine Protection
+  abilityIcon: {fileID: 2800000, guid: ce449e213744f1e4c923c460e09162ab, type: 3}
+  Animation: {fileID: 7400000, guid: 1bbc432bf1c838442b4994499895b390, type: 2}
   animationDuration: 1.5
-  cooldown: 3
-  skill_SP: 10
+  cooldown: 6
+  skill_SP: 20

@@ -7,7 +7,6 @@ public class Skill : ScriptableObject
 {
     public string abilityName;
     public Texture abilityIcon;
-    public AnimationClip Animation;
     public float animationDuration;
     public float cooldown;
     public int skill_SP;
