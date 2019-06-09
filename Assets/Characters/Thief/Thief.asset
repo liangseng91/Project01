@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ba7d8a643c0ce14690cbd1122717337, type: 3}
-  m_Name: Lancer
+  m_Name: Thief
   m_EditorClassIdentifier: 
-  char_Icon: {fileID: 2800000, guid: bbcdd993df100744cb71da429d0b0dde, type: 3}
-  char_Name: Zack
-  char_maxHP: 500
-  char_maxSP: 150
+  char_Icon: {fileID: 2800000, guid: d60103384cff8b24a9e80340b9a87a6f, type: 3}
+  char_Name: Zero
+  char_maxHP: 400
+  char_maxSP: 200
   char_ATK: 20
-  char_DEF: 15
-  char_SPRegen: 1
+  char_DEF: 12
+  char_SPRegen: 2
   char_Level: 3
   char_EXP: 0
-  char_maxHPGainPerLevel: 50
-  char_maxSPGainPerLevel: 20
-  char_ATKGainPerLevel: 3
-  char_DEFGainPerLevel: 2
+  char_maxHPGainPerLevel: 40
+  char_maxSPGainPerLevel: 30
+  char_ATKGainPerLevel: 4
+  char_DEFGainPerLevel: 1
