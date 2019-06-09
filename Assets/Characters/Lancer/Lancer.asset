@@ -18,6 +18,7 @@ MonoBehaviour:
   char_maxSP: 150
   char_ATK: 20
   char_DEF: 15
+  char_SPRegen: 1
   char_Level: 3
   char_EXP: 0
   char_maxHPGainPerLevel: 50

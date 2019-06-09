@@ -11,6 +11,7 @@ public class Character : ScriptableObject
     public int char_maxSP;
     public int char_ATK;
     public int char_DEF;
+    public int char_SPRegen;
     public int char_Level;
     public int char_EXP;
     public int char_maxHPGainPerLevel;
