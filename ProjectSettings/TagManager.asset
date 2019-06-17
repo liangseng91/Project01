@@ -8,6 +8,9 @@ TagManager:
   - Music
   - Background
   - Enemy
+  - EnemyDetection
+  - PlayerDetection
+  - Dead
   layers:
   - Default
   - TransparentFX

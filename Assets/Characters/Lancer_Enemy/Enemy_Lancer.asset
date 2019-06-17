@@ -15,9 +15,12 @@ MonoBehaviour:
   char_Icon: {fileID: 2800000, guid: bbcdd993df100744cb71da429d0b0dde, type: 3}
   char_Name: Lancer_Enemy
   char_maxHP: 500
+  char_maxSP: 300
   char_ATK: 15
   char_DEF: 10
+  char_SPRegen: 1
   char_Level: 2
   char_maxHPGainPerLevel: 50
+  char_maxSPGainPerLevel: 20
   char_ATKGainPerLevel: 3
   char_DEFGainPerLevel: 2
