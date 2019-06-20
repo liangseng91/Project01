@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &761811626111799601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4600985385333610611}
+  m_Layer: 5
+  m_Name: Range
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4600985385333610611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761811626111799601}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5526557493768202632}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2378659292371803559
 GameObject:
   m_ObjectHideFlags: 0
@@ -10,13 +40,13 @@ GameObject:
   m_Component:
   - component: {fileID: 5526557493768202632}
   - component: {fileID: 2483564758476428062}
-  - component: {fileID: 6452634446769938289}
+  - component: {fileID: 1274912524464239968}
   - component: {fileID: 7213842052151326008}
-  - component: {fileID: 6589194475259107876}
-  - component: {fileID: 1013856762}
-  - component: {fileID: 7446452978386188793}
+  - component: {fileID: 1390697005726167093}
+  - component: {fileID: 5205381581424219115}
+  - component: {fileID: 3416586697084982248}
   m_Layer: 5
-  m_Name: Lancer_Enemy_Attack
+  m_Name: Thief_Attack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,8 +63,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 2.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 615582345608007129}
-  - {fileID: 8639242382490612322}
+  - {fileID: 615582345607936749}
+  - {fileID: 4600985385333610611}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -122,8 +152,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 63.203125
-        y: 191.58594
+        x: 64.203125
+        y: 181.58594
         width: 121
         height: 32
       isBreakpoint: 0
@@ -134,7 +164,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Get Target
+        toState: Send Damage 2
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -166,7 +196,7 @@ MonoBehaviour:
         - useVariable: 1
           name: spawner
           tooltip: 
-          showInInspector: 1
+          showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
         fsmOwnerDefaultParams:
@@ -183,13 +213,13 @@ MonoBehaviour:
             useVariable: 1
             name: spawner
             tooltip: 
-            showInInspector: 1
+            showInInspector: 0
             networkSync: 0
             value: {fileID: 0}
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -210,7 +240,7 @@ MonoBehaviour:
             ownerOption: 1
             gameObject:
               useVariable: 1
-              name: playerHit
+              name: enemyHit
               tooltip: 
               showInInspector: 0
               networkSync: 0
@@ -244,7 +274,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: enemy_currentATK(modified)
+          value: char_currentATK(modified)
         - useVariable: 0
           name: 
           tooltip: 
@@ -263,7 +293,7 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 1
-          name: enemy_currentATK(modified_parent)
+          name: char_currentATK(modified_parent)
           tooltip: 
           showInInspector: 1
           networkSync: 0
@@ -322,9 +352,9 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 25
+          value: 10
         - useVariable: 1
-          name: enemy_currentATK(modified_parent)
+          name: char_currentATK(modified_parent)
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -540,9 +570,9 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 4805135586407021344}
+          value: {fileID: 761811626111799601}
         - useVariable: 1
-          name: playerHit
+          name: enemyHit
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -586,7 +616,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 9
+          value: 13
         - useVariable: 1
           name: colliderCount
           tooltip: 
@@ -650,6 +680,280 @@ MonoBehaviour:
         - finishedEvent
         paramDataPos: 0000000000000000000000000100000000000000010000000000000000000000020000000100000003000000010000000000000001000000
         paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    - name: Send Damage 2
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 71
+        y: 235
+        width: 134
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Get Target
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetParent
+        - HutongGames.PlayMaker.Actions.GetFsmFloat
+        - HutongGames.PlayMaker.Actions.IntOperator
+        - HutongGames.PlayMaker.Actions.RandomFloat
+        - HutongGames.PlayMaker.Actions.FloatOperator
+        - HutongGames.PlayMaker.Actions.SetFsmInt
+        - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 0101010101010101
+        actionIsOpen: 0101010101010101
+        actionStartIndex: 0000000002000000070000000c0000000f00000014000000190000001d000000
+        actionHashCodes: d97b720287604502141809032ee017040cdb0405081bbf055e69bb0448c01101
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: spawner
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: spawner
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: enemyHit
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams:
+        - target: 1
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: enemyHit
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Stats
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: char_currentATK(modified)
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Stats
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: damageReceived
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: char_currentATK(modified_parent)
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.8
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: randomDamage
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: totalBaseDamage
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: randomDamage
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: totalBaseDamage(float)
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.02
+        fsmIntParams:
+        - useVariable: 1
+          name: baseDamage
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 10
+        - useVariable: 1
+          name: char_currentATK(modified_parent)
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: totalBaseDamage
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: totalBaseDamage(float)
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - toDamage
+        - FINISHED
+        byteData: 0100000000000200000000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 14000000130000001400000012000000120000000f0000000100000010000000100000000700000010000000010000000f0000000f0000000f0000000f0000000f000000070000000f0000000100000014000000120000001200000010000000010000001f000000170000000f000000010000000f0000001700000001000000
+        paramName:
+        - gameObject
+        - storeResult
+        - gameObject
+        - fsmName
+        - variableName
+        - storeValue
+        - everyFrame
+        - integer1
+        - integer2
+        - operation
+        - storeResult
+        - everyFrame
+        - min
+        - max
+        - storeResult
+        - float1
+        - float2
+        - operation
+        - storeResult
+        - everyFrame
+        - gameObject
+        - fsmName
+        - variableName
+        - setValue
+        - everyFrame
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 000000000000000001000000000000000100000000000000000000000000000001000000010000000200000005000000010000000200000003000000040000000500000006000000060000000a000000020000000200000003000000030000000b0000000000000000000000070000000c00000008000000010000000d000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000100000000000000000000000400000000000000010000000000000000000000000000000000000000000000040000000000000001000000000000000000000000000000000000000100000000000000000000000000000001000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -661,7 +965,7 @@ MonoBehaviour:
     variables:
       floatVariables:
       - useVariable: 1
-        name: enemy_currentATK(modified_parent)
+        name: char_currentATK(modified_parent)
         tooltip: 
         showInInspector: 1
         networkSync: 0
@@ -690,7 +994,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 25
+        value: 7
       - useVariable: 1
         name: totalBaseDamage
         tooltip: 
@@ -712,7 +1016,7 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
-        name: playerHit
+        name: enemyHit
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -720,7 +1024,7 @@ MonoBehaviour:
       - useVariable: 1
         name: spawner
         tooltip: 
-        showInInspector: 1
+        showInInspector: 0
         networkSync: 0
         value: {fileID: 0}
       objectVariables: []
@@ -749,7 +1053,7 @@ MonoBehaviour:
     RestartOnEnable: 1
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 7
+    editorFlags: 3
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
@@ -779,7 +1083,7 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
---- !u!114 &6452634446769938289
+--- !u!114 &1274912524464239968
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -913,7 +1217,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -921,7 +1225,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -929,7 +1233,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -952,7 +1256,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isBuffATK
+          value: enemy_isBuffATK
         - useVariable: 0
           name: 
           tooltip: 
@@ -964,7 +1268,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isATKBuff_duration
+          value: enemy_isATKBuff_duration
         - useVariable: 0
           name: 
           tooltip: 
@@ -976,7 +1280,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isATKBuff_value
+          value: enemy_isATKBuff_value
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1084,7 +1388,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -1092,7 +1396,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -1100,7 +1404,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -1123,7 +1427,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isDebuffATK
+          value: enemy_isDebuffATK
         - useVariable: 0
           name: 
           tooltip: 
@@ -1135,7 +1439,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isATKDebuff_duration
+          value: enemy_isATKDebuff_duration
         - useVariable: 0
           name: 
           tooltip: 
@@ -1147,7 +1451,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isATKDebuff_value
+          value: enemy_isATKDebuff_value
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1218,8 +1522,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 480.0078
-        y: 195.89844
+        x: 474.0078
+        y: 194.89844
         width: 109
         height: 48
       isBreakpoint: 0
@@ -1354,9 +1658,9 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 4805135586407021344}
+          value: {fileID: 761811626111799601}
         - useVariable: 1
-          name: playerHit
+          name: enemyHit
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -1400,7 +1704,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 9
+          value: 13
         - useVariable: 1
           name: colliderCount
           tooltip: 
@@ -1680,7 +1984,7 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
-        name: playerHit
+        name: enemyHit
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -1751,7 +2055,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.5, y: 1}
+  m_Offset: {x: 1.5, y: 1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1764,7 +2068,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5, y: 2}
   m_EdgeRadius: 0
---- !u!114 &6589194475259107876
+--- !u!114 &1390697005726167093
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1883,24 +2187,22 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetFsmFloat
         - HutongGames.PlayMaker.Actions.SetFsmFloat
         - HutongGames.PlayMaker.Actions.Wait
-        - HutongGames.PlayMaker.Actions.Wait
         customNames:
         - 
         - 
         - 
         - 
-        - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0101010101
-        actionStartIndex: 00000000050000000a0000000f00000012000000
-        actionHashCodes: 68fece05876045028760450248c0110148c01101
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 00000000050000000a0000000f000000
+        actionHashCodes: 68fece05876045028760450248c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -1908,7 +2210,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -1916,7 +2218,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -1939,7 +2241,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isBuffDEF
+          value: enemy_isBuffDEF
         - useVariable: 0
           name: 
           tooltip: 
@@ -1951,7 +2253,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isDEFBuff_duration
+          value: enemy_isDEFBuff_duration
         - useVariable: 0
           name: 
           tooltip: 
@@ -1963,7 +2265,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isDEFBuff_value
+          value: enemy_isDEFBuff_value
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1987,12 +2289,6 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0.02
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -2008,13 +2304,12 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - FINISHED
-        - 
-        byteData: 0000000000
+        byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000120000001200000011000000010000001400000012000000120000000f000000010000001400000012000000120000000f000000010000000f00000017000000010000000f0000001700000001000000
+        paramDataType: 14000000120000001200000011000000010000001400000012000000120000000f000000010000001400000012000000120000000f000000010000000f0000001700000001000000
         paramName:
         - gameObject
         - fsmName
@@ -2034,11 +2329,8 @@ MonoBehaviour:
         - time
         - finishEvent
         - realTime
-        - time
-        - finishEvent
-        - realTime
-        paramDataPos: 000000000000000001000000000000000000000001000000020000000300000000000000010000000200000004000000050000000100000002000000020000000000000003000000030000000100000004000000
-        paramByteDataSize: 000000000000000000000000000000000100000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000001000000000000000000000001000000
+        paramDataPos: 000000000000000001000000000000000000000001000000020000000300000000000000010000000200000004000000050000000100000002000000020000000000000003000000
+        paramByteDataSize: 000000000000000000000000000000000100000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000001000000
     - name: Apply Debuff
       description: 
       colorIndex: 0
@@ -2081,7 +2373,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -2089,7 +2381,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -2097,7 +2389,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -2120,7 +2412,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isDebuffDEF
+          value: enemy_isDebuffDEF
         - useVariable: 0
           name: 
           tooltip: 
@@ -2132,7 +2424,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isDEFDebuff_duration
+          value: enemy_isDEFDebuff_duration
         - useVariable: 0
           name: 
           tooltip: 
@@ -2144,7 +2436,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isDEFDebuff_value
+          value: enemy_isDEFDebuff_value
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -2484,9 +2776,9 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 4805135586407021344}
+          value: {fileID: 761811626111799601}
         - useVariable: 1
-          name: playerHit
+          name: enemyHit
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -2530,7 +2822,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 9
+          value: 13
         - useVariable: 1
           name: colliderCount
           tooltip: 
@@ -2677,7 +2969,7 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
-        name: playerHit
+        name: enemyHit
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -2735,7 +3027,7 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
---- !u!114 &1013856762
+--- !u!114 &5205381581424219115
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2758,8 +3050,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 307.29688
-        y: 193.13281
+        x: 259.29688
+        y: 177.13281
         width: 128
         height: 32
       isBreakpoint: 0
@@ -2832,8 +3124,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 512.2578
-        y: 219.85156
+        x: 461.97656
+        y: 195.89062
         width: 100
         height: 32
       isBreakpoint: 0
@@ -2869,7 +3161,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -2877,7 +3169,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -2885,7 +3177,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -2908,7 +3200,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isBuffSPRegen
+          value: enemy_isBuffSPRegen
         - useVariable: 0
           name: 
           tooltip: 
@@ -2920,7 +3212,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isSPRegenBuff_duration
+          value: enemy_isSPRegenBuff_duration
         - useVariable: 0
           name: 
           tooltip: 
@@ -2932,7 +3224,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isSPRegenBuff_value
+          value: enemy_isSPRegenBuff_value
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -3003,8 +3295,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 391.4297
-        y: 289.35156
+        x: 343.4297
+        y: 273.35156
         width: 100
         height: 16
       isBreakpoint: 0
@@ -3064,8 +3356,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 225.85938
-        y: 276.42188
+        x: 177.85938
+        y: 260.42188
         width: 100
         height: 32
       isBreakpoint: 0
@@ -3136,8 +3428,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 63.320312
-        y: 103.1875
+        x: 52.8125
+        y: 114.453125
         width: 100
         height: 48
       isBreakpoint: 0
@@ -3176,9 +3468,9 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 4805135586407021344}
+          value: {fileID: 761811626111799601}
         - useVariable: 1
-          name: playerHit
+          name: enemyHit
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -3222,7 +3514,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 9
+          value: 13
         - useVariable: 1
           name: colliderCount
           tooltip: 
@@ -3345,7 +3637,7 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
-        name: playerHit
+        name: enemyHit
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -3403,7 +3695,7 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
---- !u!114 &7446452978386188793
+--- !u!114 &3416586697084982248
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3537,7 +3829,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -3545,7 +3837,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -3553,7 +3845,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -3576,7 +3868,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isBuffCDSPD
+          value: enemy_isBuffCDSPD
         - useVariable: 0
           name: 
           tooltip: 
@@ -3588,7 +3880,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isCDSPDBuff_duration
+          value: enemy_isCDSPDBuff_duration
         - useVariable: 0
           name: 
           tooltip: 
@@ -3600,7 +3892,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isCDSPDBuff_value
+          value: enemy_isCDSPDBuff_value
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -3708,7 +4000,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -3716,7 +4008,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -3724,7 +4016,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: playerHit
+            name: enemyHit
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -3747,7 +4039,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isDebuffCDSPD
+          value: enemy_isDebuffCDSPD
         - useVariable: 0
           name: 
           tooltip: 
@@ -3759,7 +4051,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isCDSPDDebuff_duration
+          value: enemy_isCDSPDDebuff_duration
         - useVariable: 0
           name: 
           tooltip: 
@@ -3771,7 +4063,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: char_isCDSPDDebuff_value
+          value: enemy_isCDSPDDebuff_value
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -4111,9 +4403,9 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 4805135586407021344}
+          value: {fileID: 761811626111799601}
         - useVariable: 1
-          name: playerHit
+          name: enemyHit
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -4157,7 +4449,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 9
+          value: 13
         - useVariable: 1
           name: colliderCount
           tooltip: 
@@ -4304,7 +4596,7 @@ MonoBehaviour:
       quaternionVariables: []
       gameObjectVariables:
       - useVariable: 1
-        name: playerHit
+        name: enemyHit
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -4362,36 +4654,6 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
---- !u!1 &4805135586407021344
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8639242382490612322}
-  m_Layer: 5
-  m_Name: Range
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8639242382490612322
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4805135586407021344}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5526557493768202632}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &615582345607558497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4399,119 +4661,192 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5526557493768202632}
     m_Modifications:
-    - target: {fileID: 199452, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 125564, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: m_Name
-      value: MuzzleFlashSpikyBlue
+      value: SlashPurple
       objectReference: {fileID: 0}
-    - target: {fileID: 199452, guid: 26301291b11be9845a2afe42bf473737, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 473272, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.75
+      value: 1.25
       objectReference: {fileID: 0}
-    - target: {fileID: 473272, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 473272, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 473272, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.5000001
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 473272, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.4999999
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 473272, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.50000006
+      value: -0.38268343
       objectReference: {fileID: 0}
-    - target: {fileID: 473272, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.50000006
+      value: 0.92387956
       objectReference: {fileID: 0}
-    - target: {fileID: 473272, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 473272, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -180
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 473272, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 473272, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 89.99999
+      value: -45
       objectReference: {fileID: 0}
-    - target: {fileID: 473272, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: m_LocalScale.z
-      value: -1
+      value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 19852422, guid: 26301291b11be9845a2afe42bf473737, type: 3}
-      propertyPath: moveWithTransform
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 19852422, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 19809082, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: scalingMode
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 19852422, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 19809082, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 19852422, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 19809082, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: InitialModule.startSizeZ.minMaxState
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 110536, guid: 26301291b11be9845a2afe42bf473737, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 191914, guid: 26301291b11be9845a2afe42bf473737, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 140490, guid: 26301291b11be9845a2afe42bf473737, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 19847092, guid: 26301291b11be9845a2afe42bf473737, type: 3}
-      propertyPath: moveWithTransform
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 19847092, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 19816808, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: InitialModule.startSizeY.minMaxState
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 19847092, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 19816808, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: InitialModule.startSizeZ.minMaxState
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 19893600, guid: 26301291b11be9845a2afe42bf473737, type: 3}
-      propertyPath: moveWithTransform
-      value: 1
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+--- !u!4 &615582345607936749 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458,
+    type: 3}
+  m_PrefabInstance: {fileID: 615582345607558497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9022949485086663166
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 615582345607936749}
+    m_Modifications:
+    - target: {fileID: 125564, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_Name
+      value: SlashPurple (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 19892916, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.13052624
+      objectReference: {fileID: 0}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9914449
+      objectReference: {fileID: 0}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446348, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 19809082, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19809082, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: scalingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19809082, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19809082, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19801890, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19816808, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19816808, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19816808, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19809368, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19809368, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: InitialModule.startRotationX.minMaxState
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 19892916, guid: 26301291b11be9845a2afe42bf473737, type: 3}
+    - target: {fileID: 19809368, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 26301291b11be9845a2afe42bf473737, type: 3}
---- !u!4 &615582345608007129 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 473272, guid: 26301291b11be9845a2afe42bf473737,
-    type: 3}
-  m_PrefabInstance: {fileID: 615582345607558497}
-  m_PrefabAsset: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 4d67b7a97c0c12447a9d8f996e642458, type: 3}

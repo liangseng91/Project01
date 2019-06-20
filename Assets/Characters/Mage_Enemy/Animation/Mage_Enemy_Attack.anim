@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mage_Attack
+  m_Name: Mage_Enemy_Attack
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -19809,7 +19809,7 @@ AnimationClip:
   m_Events:
   - time: 0.4
     functionName: Spawn
-    data: Mage_Attack
+    data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

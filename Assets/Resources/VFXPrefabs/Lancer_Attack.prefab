@@ -173,6 +173,8 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.GetParent
         - HutongGames.PlayMaker.Actions.GetFsmFloat
         - HutongGames.PlayMaker.Actions.IntOperator
+        - HutongGames.PlayMaker.Actions.RandomFloat
+        - HutongGames.PlayMaker.Actions.FloatOperator
         - HutongGames.PlayMaker.Actions.SetFsmInt
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.Wait
@@ -183,10 +185,12 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101010101
-        actionIsOpen: 010101010101
-        actionStartIndex: 0000000002000000070000000c0000001100000015000000
-        actionHashCodes: d97b72028760450214180903081bbf055e69bb0448c01101
+        - 
+        - 
+        actionEnabled: 0101010101010101
+        actionIsOpen: 0101010101010101
+        actionStartIndex: 0000000002000000070000000c0000000f00000014000000190000001d000000
+        actionHashCodes: d97b720287604502141809032ee017040cdb0405081bbf055e69bb0448c01101
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -299,6 +303,42 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: 0.8
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: randomDamage
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: totalBaseDamage
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: randomDamage
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: totalBaseDamage(float)
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: 0
         - useVariable: 0
           name: 
@@ -312,7 +352,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 1
           networkSync: 0
-          value: 50
+          value: 15
         - useVariable: 1
           name: char_currentATK(modified_parent)
           tooltip: 
@@ -326,9 +366,9 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: totalBaseDamage
+          name: totalBaseDamage(float)
           tooltip: 
-          showInInspector: 1
+          showInInspector: 0
           networkSync: 0
           value: 0
         fsmBoolParams: []
@@ -340,12 +380,12 @@ MonoBehaviour:
         stringParams:
         - toDamage
         - FINISHED
-        byteData: 010000000000000000
+        byteData: 0100000000000200000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000130000001400000012000000120000000f00000001000000100000001000000007000000100000000100000014000000120000001200000010000000010000001f000000170000000f000000010000000f0000001700000001000000
+        paramDataType: 14000000130000001400000012000000120000000f0000000100000010000000100000000700000010000000010000000f0000000f0000000f0000000f0000000f000000070000000f0000000100000014000000120000001200000010000000010000001f000000170000000f000000010000000f0000001700000001000000
         paramName:
         - gameObject
         - storeResult
@@ -356,6 +396,14 @@ MonoBehaviour:
         - everyFrame
         - integer1
         - integer2
+        - operation
+        - storeResult
+        - everyFrame
+        - min
+        - max
+        - storeResult
+        - float1
+        - float2
         - operation
         - storeResult
         - everyFrame
@@ -371,8 +419,8 @@ MonoBehaviour:
         - time
         - finishEvent
         - realTime
-        paramDataPos: 000000000000000001000000000000000100000000000000000000000000000001000000010000000200000005000000020000000200000003000000030000000600000000000000000000000100000007000000020000000100000008000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000010000000000000000000000040000000000000001000000000000000000000000000000000000000100000000000000000000000000000001000000000000000000000001000000
+        paramDataPos: 000000000000000001000000000000000100000000000000000000000000000001000000010000000200000005000000010000000200000003000000040000000500000006000000060000000a000000020000000200000003000000030000000b0000000000000000000000070000000c00000008000000010000000d000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000100000000000000000000000400000000000000010000000000000000000000000000000000000000000000040000000000000001000000000000000000000000000000000000000100000000000000000000000000000001000000000000000000000001000000
     - name: Wait
       description: 
       colorIndex: 0
@@ -654,13 +702,25 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         value: 0.5
+      - useVariable: 1
+        name: randomDamage
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: totalBaseDamage(float)
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       intVariables:
       - useVariable: 1
         name: baseDamage
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 25
+        value: 15
       - useVariable: 1
         name: totalBaseDamage
         tooltip: 
@@ -704,7 +764,7 @@ MonoBehaviour:
       - CDSPD Modifier
       - DEF Modifier
       - SP Regen Modifier
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0

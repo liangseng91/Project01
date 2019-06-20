@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 676249889927418669}
   - component: {fileID: 8955920152907604481}
   m_Layer: 5
-  m_Name: DamagePopUp
+  m_Name: DamagePopUp_Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -267,6 +267,8 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.ConvertIntToString
         - HutongGames.PlayMaker.Actions.SetProperty
+        - HutongGames.PlayMaker.Actions.RandomFloat
+        - HutongGames.PlayMaker.Actions.RandomFloat
         - HutongGames.PlayMaker.Actions.AddForce2d
         - HutongGames.PlayMaker.Actions.UiGraphicCrossFadeAlpha
         - HutongGames.PlayMaker.Actions.Wait
@@ -276,10 +278,12 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0101010101
-        actionStartIndex: 0000000004000000060000000e00000012000000
-        actionHashCodes: 404de8045ac85204d596ab028479fb0048c01101
+        - 
+        - 
+        actionEnabled: 01010101010101
+        actionIsOpen: 01010101010101
+        actionStartIndex: 000000000400000006000000090000000c0000001400000018000000
+        actionHashCodes: 404de8045ac852042ee017042ee01704d596ab028479fb0048c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -466,7 +470,43 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: -1.5
+        - useVariable: 1
+          name: randomDirectionX
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: 7
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 8
+        - useVariable: 1
+          name: randomDirectionY
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: randomDirectionX
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: randomDirectionY
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         - useVariable: 0
           name: 
           tooltip: 
@@ -529,7 +569,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 100000001200000012000000010000002400000001000000140000000700000025000000250000000f0000000f0000001c00000001000000140000000f0000000f000000110000000f0000001700000001000000
+        paramDataType: 1000000012000000120000000100000024000000010000000f0000000f0000000f0000000f0000000f0000000f000000140000000700000025000000250000000f0000000f0000001c00000001000000140000000f0000000f000000110000000f0000001700000001000000
         paramName:
         - intVariable
         - stringVariable
@@ -537,6 +577,12 @@ MonoBehaviour:
         - everyFrame
         - targetProperty
         - everyFrame
+        - min
+        - max
+        - storeResult
+        - min
+        - max
+        - storeResult
         - gameObject
         - forceMode
         - atPosition
@@ -552,8 +598,8 @@ MonoBehaviour:
         - time
         - finishEvent
         - realTime
-        paramDataPos: 000000000000000001000000000000000000000001000000000000000200000000000000010000000000000001000000000000000600000001000000020000000300000000000000040000000000000007000000
-        paramByteDataSize: 000000000000000000000000010000000000000001000000000000000400000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 0000000000000000010000000000000000000000010000000000000001000000020000000300000004000000050000000000000002000000000000000100000006000000070000000000000006000000010000000800000009000000000000000a0000000000000007000000
+        paramByteDataSize: 000000000000000000000000010000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000001000000
     - name: Destroy
       description: 
       colorIndex: 0
@@ -621,7 +667,19 @@ MonoBehaviour:
       isGlobal: 0
     globalTransitions: []
     variables:
-      floatVariables: []
+      floatVariables:
+      - useVariable: 1
+        name: randomDirectionX
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: randomDirectionY
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       intVariables:
       - useVariable: 1
         name: finalDamage_2(int)(damagePopUp)
@@ -656,7 +714,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -787,7 +845,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 400
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -856,13 +914,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 7683990724842145855}
-    characterCount: 3
+    characterCount: 0
     spriteCount: 0
     spaceCount: 0
-    wordCount: 1
+    wordCount: 0
     linkCount: 0
-    lineCount: 1
-    pageCount: 1
+    lineCount: 0
+    pageCount: 0
     materialCount: 1
   m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
