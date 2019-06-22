@@ -3307,7 +3307,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.02
+          value: 0.01
         fsmIntParams:
         - useVariable: 1
           name: totalBaseDamage(float)
@@ -3925,7 +3925,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.02
+          value: 0.01
         fsmIntParams:
         - useVariable: 1
           name: totalBaseDamage(float)
