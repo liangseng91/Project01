@@ -10,5 +10,7 @@ public class Skill : ScriptableObject
     public float animationDuration;
     public float cooldown;
     public int skill_SP;
-    
+    public float critRate;
+    public float critDamage;
+    public int knockbackValue;
 }

@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b2d277f70a5cbc4898e47420a9276d8, type: 3}
   m_Name: Lancer_BasicAttack
   m_EditorClassIdentifier: 
-  Animation: {fileID: 7400000, guid: b054a6e755309ca45bdf02b44c00f41d, type: 2}
   animationDuration: 0.5
   cooldown: 1.25
+  critRate: 0.15
+  critDamage: 1.5
+  knockbackValue: 2

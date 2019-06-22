@@ -7,4 +7,7 @@ public class BasicAttack : ScriptableObject
 {
     public float animationDuration;
     public float cooldown;
+    public float critRate;
+    public float critDamage;
+    public int knockbackValue;
 }
