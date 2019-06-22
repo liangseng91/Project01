@@ -15,5 +15,5 @@ MonoBehaviour:
   animationDuration: 0.5
   cooldown: 1.25
   critRate: 0.15
-  critDamage: 1.5
+  critDamage: 3
   knockbackValue: 2
