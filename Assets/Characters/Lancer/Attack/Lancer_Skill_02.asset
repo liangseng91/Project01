@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   abilityName: Divine Protection
   abilityIcon: {fileID: 2800000, guid: ce449e213744f1e4c923c460e09162ab, type: 3}
-  Animation: {fileID: 7400000, guid: 9302385f4ce4d8f4d9a82ab2093fe229, type: 2}
   animationDuration: 1.5
   cooldown: 6
-  skill_SP: 20
+  skill_SP: 60
+  critRate: 0
+  critDamage: 0
+  knockbackValue: 0

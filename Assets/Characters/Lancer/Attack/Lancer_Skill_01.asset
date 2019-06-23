@@ -16,4 +16,7 @@ MonoBehaviour:
   abilityIcon: {fileID: 2800000, guid: d5e79e0e2fb320c4b96a70f7a5cad5d3, type: 3}
   animationDuration: 1.5
   cooldown: 3
-  skill_SP: 10
+  skill_SP: 30
+  critRate: 0.25
+  critDamage: 2
+  knockbackValue: 200

@@ -4609,7 +4609,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &320398941
 Transform:
   m_ObjectHideFlags: 0
@@ -18190,6 +18190,12 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: toCheckReceiveDamage
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: toCrit
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: toNoCrit
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions:
@@ -92296,7 +92302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2117037592
 Transform:
   m_ObjectHideFlags: 0
@@ -92612,7 +92618,7 @@ Transform:
   - {fileID: 864672767621991819}
   m_Father: {fileID: 864672767621991831}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.5345978}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 37.295696}
 --- !u!4 &864672767621991819
 Transform:
   m_ObjectHideFlags: 0
@@ -92641,7 +92647,7 @@ Transform:
   - {fileID: 864672767621991823}
   m_Father: {fileID: 864672767621991829}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -6.163739e-15, y: -180, z: 83.400085}
+  m_LocalEulerAnglesHint: {x: 0, y: -179.99998, z: 23.08041}
 --- !u!4 &864672767621991823
 Transform:
   m_ObjectHideFlags: 0
@@ -92656,7 +92662,7 @@ Transform:
   - {fileID: 864672767621991809}
   m_Father: {fileID: 864672767621991821}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.7508351}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -36.56228}
 --- !u!4 &864672767621991825
 Transform:
   m_ObjectHideFlags: 0
@@ -92717,7 +92723,7 @@ Transform:
   - {fileID: 864672767621991817}
   m_Father: {fileID: 864672767621991827}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.38652}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 65.8484}
 --- !u!4 &864672767621991833
 Transform:
   m_ObjectHideFlags: 0
@@ -92778,7 +92784,7 @@ Transform:
   - {fileID: 864672767621991811}
   m_Father: {fileID: 864672767621991835}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -27.122179}
 --- !u!4 &864672767621991907
 Transform:
   m_ObjectHideFlags: 0
@@ -92839,7 +92845,7 @@ Transform:
   - {fileID: 864672767622092431}
   m_Father: {fileID: 864672767622092475}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 65.43282}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6.5031967}
 --- !u!4 &864672767622092419
 Transform:
   m_ObjectHideFlags: 0
@@ -92868,7 +92874,7 @@ Transform:
   - {fileID: 864672767622092419}
   m_Father: {fileID: 864672767622092477}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 7.129067e-15, y: 180, z: -89.07501}
+  m_LocalEulerAnglesHint: {x: 7.138287e-15, y: 180, z: -88.99843}
 --- !u!4 &864672767622092423
 Transform:
   m_ObjectHideFlags: 0
@@ -92913,7 +92919,7 @@ Transform:
   - {fileID: 864672767622092425}
   m_Father: {fileID: 864672767622092429}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.25548896}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -15.0425205}
 --- !u!4 &864672767622092429
 Transform:
   m_ObjectHideFlags: 0
@@ -92943,7 +92949,7 @@ Transform:
   - {fileID: 864672767622092429}
   m_Father: {fileID: 864672767622092417}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -32.961636}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -71.50404}
 --- !u!4 &864672767622092433
 Transform:
   m_ObjectHideFlags: 0
@@ -93016,7 +93022,7 @@ Transform:
   - {fileID: 864672767622092519}
   m_Father: {fileID: 864672767622092443}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -1.55449e-14, y: -1.1353864e-14, z: 5.557959e-12}
+  m_LocalEulerAnglesHint: {x: -1.55449e-14, y: -1.1353864e-14, z: 0}
 --- !u!4 &864672767622092443
 Transform:
   m_ObjectHideFlags: 0
@@ -93046,7 +93052,7 @@ Transform:
   - {fileID: 864672767622092443}
   m_Father: {fileID: 864672767622092447}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 33.196426}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 70.07851}
 --- !u!4 &864672767622092447
 Transform:
   m_ObjectHideFlags: 0
@@ -93061,7 +93067,7 @@ Transform:
   - {fileID: 864672767622092445}
   m_Father: {fileID: 864672767622092423}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -1.1785749e-15, y: -180, z: 51.82115}
+  m_LocalEulerAnglesHint: {x: 0, y: -179.99998, z: 15.973096}
 --- !u!4 &864672767622092473
 Transform:
   m_ObjectHideFlags: 0
@@ -95895,16 +95901,22 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.GetProperty
         - HutongGames.PlayMaker.Actions.GetProperty
         - HutongGames.PlayMaker.Actions.GetProperty
+        - HutongGames.PlayMaker.Actions.GetProperty
+        - HutongGames.PlayMaker.Actions.GetProperty
+        - HutongGames.PlayMaker.Actions.GetProperty
         customNames:
         - 
         - 
         - 
         - 
         - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0000000100
-        actionStartIndex: 0000000002000000040000000600000008000000
-        actionHashCodes: 5ac852045ac852045ac852045ac852045ac85204
+        - 
+        - 
+        - 
+        actionEnabled: 0101010101010101
+        actionIsOpen: 0000000001010101
+        actionStartIndex: 00000000020000000400000006000000080000000a0000000c0000000e000000
+        actionHashCodes: 5ac852045ac852045ac852045ac852045ac852045ac852045ac852045ac85204
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -96556,6 +96568,402 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
+            enumName: HutongGames.PlayMaker.None
+            intValue: 0
+          ArrayParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: UnityEngine.Object
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+          setProperty: 0
+        - TargetObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: UnityEngine.Object
+            value: {fileID: 864672767622298061}
+          TargetTypeName: Skill1Object
+          PropertyName: skill.critDamage
+          BoolParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          FloatParameter:
+            useVariable: 1
+            name: char_skill01_critDamage
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          IntParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          GameObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+          StringParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          Vector2Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0}
+          Vector3Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0}
+          RectParamater:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+          QuaternionParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0, w: 0}
+          ObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: System.Single
+            value: {fileID: 0}
+          MaterialParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          TextureParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          ColorParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {r: 0, g: 0, b: 0, a: 1}
+          EnumParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            enumName: 
+            intValue: 0
+          ArrayParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+          setProperty: 0
+        - TargetObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: UnityEngine.Object
+            value: {fileID: 864672767622298061}
+          TargetTypeName: Skill1Object
+          PropertyName: skill.critRate
+          BoolParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          FloatParameter:
+            useVariable: 1
+            name: char_skill01_critRate
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          IntParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          GameObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+          StringParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          Vector2Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0}
+          Vector3Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0}
+          RectParamater:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+          QuaternionParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0, w: 0}
+          ObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: System.Single
+            value: {fileID: 0}
+          MaterialParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          TextureParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          ColorParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {r: 0, g: 0, b: 0, a: 1}
+          EnumParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            enumName: 
+            intValue: 0
+          ArrayParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+          setProperty: 0
+        - TargetObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: UnityEngine.Object
+            value: {fileID: 864672767622298061}
+          TargetTypeName: Skill1Object
+          PropertyName: skill.knockbackValue
+          BoolParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          FloatParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          IntParameter:
+            useVariable: 1
+            name: char_skill01_KBValue
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          GameObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+          StringParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          Vector2Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0}
+          Vector3Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0}
+          RectParamater:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+          QuaternionParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0, w: 0}
+          ObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: System.Int32
+            value: {fileID: 0}
+          MaterialParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          TextureParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          ColorParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {r: 0, g: 0, b: 0, a: 1}
+          EnumParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
             enumName: 
             intValue: 0
           ArrayParameter:
@@ -96588,12 +96996,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0000000000
+        byteData: 0000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 24000000010000002400000001000000240000000100000024000000010000002400000001000000
+        paramDataType: 24000000010000002400000001000000240000000100000024000000010000002400000001000000240000000100000024000000010000002400000001000000
         paramName:
         - targetProperty
         - everyFrame
@@ -96605,8 +97013,14 @@ MonoBehaviour:
         - everyFrame
         - targetProperty
         - everyFrame
-        paramDataPos: 00000000000000000100000001000000020000000200000003000000030000000400000004000000
-        paramByteDataSize: 00000000010000000000000001000000000000000100000000000000010000000000000001000000
+        - targetProperty
+        - everyFrame
+        - targetProperty
+        - everyFrame
+        - targetProperty
+        - everyFrame
+        paramDataPos: 00000000000000000100000001000000020000000200000003000000030000000400000004000000050000000500000006000000060000000700000007000000
+        paramByteDataSize: 00000000010000000000000001000000000000000100000000000000010000000000000001000000000000000100000000000000010000000000000001000000
     - name: Set Basic Attack
       description: 
       colorIndex: 4
@@ -100107,6 +100521,12 @@ MonoBehaviour:
     - name: toCheckReceiveDamage
       isSystemEvent: 0
       isGlobal: 0
+    - name: toCrit
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: toNoCrit
+      isSystemEvent: 0
+      isGlobal: 0
     globalTransitions:
     - fsmEvent:
         name: toDamage
@@ -100200,6 +100620,18 @@ MonoBehaviour:
         value: 0
       - useVariable: 1
         name: char_basicATK_critDamage
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: char_skill01_critDamage
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: char_skill01_critRate
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -100373,6 +100805,12 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 0
+      - useVariable: 1
+        name: char_skill01_KBValue
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       boolVariables:
       - useVariable: 1
         name: isAttacked
@@ -100470,7 +100908,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -120830,6 +121268,12 @@ MonoBehaviour:
     - name: toCheckReceiveDamage
       isSystemEvent: 0
       isGlobal: 0
+    - name: toCrit
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: toNoCrit
+      isSystemEvent: 0
+      isGlobal: 0
     globalTransitions:
     - fsmEvent:
         name: toDamage
@@ -123308,6 +123752,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GUIManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5835394000551657351, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5835394000551657347, guid: fd34b1d324c86b440be748d667d1e82d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -123498,6 +123947,126 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3223849452134332909, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223849452134332909, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3223849452134332909, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835394001128578155, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835394001128578155, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835394001128578155, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864785391601255, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864785391601255, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864785391601255, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864786084669875, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864786084669875, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864786084669875, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864785699759413, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864785699759413, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864785699759413, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864784982737406, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864784982737406, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864784982737406, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864784443457956, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864784443457956, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864784443457956, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864785882335853, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864785882335853, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8954864785882335853, guid: fd34b1d324c86b440be748d667d1e82d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd34b1d324c86b440be748d667d1e82d, type: 3}
 --- !u!61 &3257625241129959022
@@ -123526,6 +124095,75 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 1}
   m_EdgeRadius: 0
+--- !u!1001 &4260094397351841270
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8474137461127635021, guid: 19d214a5b304c664a8f499f16e9db2e1,
+        type: 3}
+      propertyPath: m_Name
+      value: Thief_Skill02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1741445939996169314, guid: 19d214a5b304c664a8f499f16e9db2e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1741445939996169314, guid: 19d214a5b304c664a8f499f16e9db2e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 1741445939996169314, guid: 19d214a5b304c664a8f499f16e9db2e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1741445939996169314, guid: 19d214a5b304c664a8f499f16e9db2e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1741445939996169314, guid: 19d214a5b304c664a8f499f16e9db2e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1741445939996169314, guid: 19d214a5b304c664a8f499f16e9db2e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1741445939996169314, guid: 19d214a5b304c664a8f499f16e9db2e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1741445939996169314, guid: 19d214a5b304c664a8f499f16e9db2e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1741445939996169314, guid: 19d214a5b304c664a8f499f16e9db2e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1741445939996169314, guid: 19d214a5b304c664a8f499f16e9db2e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1741445939996169314, guid: 19d214a5b304c664a8f499f16e9db2e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 19d214a5b304c664a8f499f16e9db2e1, type: 3}
 --- !u!114 &5506553653922344592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125120,6 +125758,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraManager
       objectReference: {fileID: 0}
+    - target: {fileID: 6544463457873960800, guid: 78eae2d3467ecb64990f162cd199dd76,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6544463457873960801, guid: 78eae2d3467ecb64990f162cd199dd76,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -125313,8 +125956,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083530941}
-  m_LocalRotation: {x: -0.7008995, y: 0.71326005, z: 4.3674584e-17, w: -4.2917714e-17}
-  m_LocalPosition: {x: -32.895157, y: 0.5750901, z: 7.042823e-17}
+  m_LocalRotation: {x: -0.7008995, y: 0.7132601, z: 4.367458e-17, w: -4.291771e-17}
+  m_LocalPosition: {x: -32.89516, y: 0.5750901, z: 7.042823e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7693447086083155309}
@@ -125328,13 +125971,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083492227}
   m_LocalRotation: {x: 0, y: -0, z: -8.326673e-17, w: 1}
-  m_LocalPosition: {x: -1.0961237, y: -1.5360649, z: 0}
+  m_LocalPosition: {x: -1.096124, y: -1.536065, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7693447086083263745}
   m_Father: {fileID: 7693447086083204977}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8.105134e-10}
 --- !u!4 &7693447086083152935
 Transform:
   m_ObjectHideFlags: 0
@@ -125379,7 +126022,7 @@ Transform:
   - {fileID: 7693447086083146343}
   m_Father: {fileID: 7693447086083168047}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 7.138287e-15, y: 180, z: -88.99843}
 --- !u!4 &7693447086083156219
 Transform:
   m_ObjectHideFlags: 0
@@ -125394,7 +126037,7 @@ Transform:
   - {fileID: 7693447086083211293}
   m_Father: {fileID: 7693447086083260055}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.10678531, y: -179.5203, z: 64.7659}
 --- !u!4 &7693447086083159305
 Transform:
   m_ObjectHideFlags: 0
@@ -125402,8 +126045,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083601811}
-  m_LocalRotation: {x: 0, y: -0, z: -0.7006501, w: 0.713505}
-  m_LocalPosition: {x: -9.869794, y: -1.0808575, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7006501, w: 0.713505}
+  m_LocalPosition: {x: -9.869794, y: -1.080858, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7693447086083263807}
@@ -125417,7 +126060,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083590943}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.190921, y: 24.122654, z: 0}
+  m_LocalPosition: {x: 1.190921, y: 24.12265, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7693447086083252273}
@@ -125432,7 +126075,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083473809}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -4.6858993, y: -1.4210854e-16, z: 0}
+  m_LocalPosition: {x: -4.685899, y: -1.421085e-16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7693447086083228017}
@@ -125463,13 +126106,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083501957}
   m_LocalRotation: {x: -1.3565484e-16, y: -9.908116e-17, z: -1.3440839e-32, w: 1}
-  m_LocalPosition: {x: 0.24595588, y: -1.9513855, z: -0.00000004054385}
+  m_LocalPosition: {x: 0.2459559, y: -1.951385, z: -0.00000004054385}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7693447086083231451}
   m_Father: {fileID: 7693447086083252745}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -1.554491e-14, y: -1.135385e-14, z: -0.00004215795}
 --- !u!4 &7693447086083172813
 Transform:
   m_ObjectHideFlags: 0
@@ -125484,7 +126127,7 @@ Transform:
   - {fileID: 7693447086083263807}
   m_Father: {fileID: 7693447086083154497}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.015000019, y: -0.16470371, z: 98.69419}
 --- !u!4 &7693447086083204977
 Transform:
   m_ObjectHideFlags: 0
@@ -125492,8 +126135,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083473503}
-  m_LocalRotation: {x: 0, y: -0, z: -0.27958766, w: 0.9601202}
-  m_LocalPosition: {x: -9.122175, y: -3.9747996, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.2795877, w: 0.9601202}
+  m_LocalPosition: {x: -9.122175, y: -3.9748, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7693447086083151475}
@@ -125514,7 +126157,7 @@ Transform:
   - {fileID: 7693447086083252745}
   m_Father: {fileID: 7693447086083156219}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.15381491, y: 1.4362147, z: 128.8607}
 --- !u!4 &7693447086083216611
 Transform:
   m_ObjectHideFlags: 0
@@ -125537,7 +126180,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083577905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.882079, y: -3.0772097, z: 0}
+  m_LocalPosition: {x: 1.882079, y: -3.07721, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7693447086083260897}
@@ -125558,7 +126201,7 @@ Transform:
   - {fileID: 7693447086083250535}
   m_Father: {fileID: 7693447086083263091}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -4.5526075, y: -4.7075334, z: -29.022314}
 --- !u!4 &7693447086083222749
 Transform:
   m_ObjectHideFlags: 0
@@ -125566,7 +126209,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083590001}
-  m_LocalRotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -20, y: -4.697713, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -125587,7 +126230,7 @@ Transform:
   - {fileID: 7693447086083204977}
   m_Father: {fileID: 7693447086083234205}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.33208907, y: -0.12792608, z: -84.00793}
 --- !u!4 &7693447086083223777
 Transform:
   m_ObjectHideFlags: 0
@@ -125596,7 +126239,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083580579}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -21.063484, y: 0.7477314, z: 0}
+  m_LocalPosition: {x: -21.06348, y: 0.7477314, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7693447086083260055}
@@ -125629,7 +126272,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083439879}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1.4210854e-16, y: 4.5474734e-15, z: 0}
+  m_LocalPosition: {x: 1.421085e-16, y: 4.547473e-15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7693447086083161129}
@@ -125661,7 +126304,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083479215}
   m_LocalRotation: {x: 0, y: 0, z: 0.09158889, w: 0.9957969}
-  m_LocalPosition: {x: -0, y: 0, z: 0.00000004054385}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00000004054385}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7693447086083260421}
@@ -125697,7 +126340,7 @@ Transform:
   - {fileID: 7693447086083223605}
   m_Father: {fileID: 7693447086083233613}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.41159213, y: 0.8089925, z: 43.858124}
 --- !u!4 &7693447086083244971
 Transform:
   m_ObjectHideFlags: 0
@@ -125706,13 +126349,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083528791}
   m_LocalRotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -1.4210854e-15, y: 4.5474734e-15, z: 0}
+  m_LocalPosition: {x: -1.421085e-15, y: 4.547473e-15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7693447086083223777}
   m_Father: {fileID: 7693447086083252273}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.38540733, y: -0.95711124, z: -36.863194}
 --- !u!4 &7693447086083247487
 Transform:
   m_ObjectHideFlags: 0
@@ -125734,8 +126377,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083529457}
-  m_LocalRotation: {x: 0.6537459, y: 0.75671417, z: 8.636577e-17, w: -6.3049894e-18}
-  m_LocalPosition: {x: -9.883238, y: 3.0695444e-14, z: -1.2097825e-15}
+  m_LocalRotation: {x: 0.6537459, y: 0.7567142, z: 8.636577e-17, w: -6.304989e-18}
+  m_LocalPosition: {x: -9.883238, y: 3.069544e-14, z: -1.209783e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7693447086083221637}
@@ -125756,7 +126399,7 @@ Transform:
   - {fileID: 7693447086083228359}
   m_Father: {fileID: 7693447086083159709}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.1188556e-10}
 --- !u!4 &7693447086083252305
 Transform:
   m_ObjectHideFlags: 0
@@ -125771,7 +126414,7 @@ Transform:
   - {fileID: 7693447086083222749}
   m_Father: {fileID: 7693447086083260897}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.2618152, y: 0.39937067, z: -10.306543}
 --- !u!4 &7693447086083252745
 Transform:
   m_ObjectHideFlags: 0
@@ -125779,8 +126422,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083595207}
-  m_LocalRotation: {x: 0.67570335, y: 0.73717374, z: 8.651377e-17, w: -3.763975e-18}
-  m_LocalPosition: {x: -10.635677, y: 1.1439563, z: -1.1666287e-15}
+  m_LocalRotation: {x: 0.6757033, y: 0.7371737, z: 8.651377e-17, w: -3.763975e-18}
+  m_LocalPosition: {x: -10.63568, y: 1.143956, z: -1.166629e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7693447086083170867}
@@ -125809,7 +126452,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7693447086083584169}
-  m_LocalRotation: {x: 0, y: -0, z: -0.09158889, w: 0.9957969}
+  m_LocalRotation: {x: 0, y: 0, z: -0.09158889, w: 0.9957969}
   m_LocalPosition: {x: -9.927782, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -125830,7 +126473,7 @@ Transform:
   - {fileID: 7693447086083252305}
   m_Father: {fileID: 7693447086083221169}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.17851867, y: 0.1385186, z: 100.936195}
 --- !u!4 &7693447086083263091
 Transform:
   m_ObjectHideFlags: 0
@@ -125845,7 +126488,7 @@ Transform:
   - {fileID: 7693447086083221637}
   m_Father: {fileID: 7693447086083228017}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.0154740475, y: -178.60231, z: 76.68719}
 --- !u!4 &7693447086083263745
 Transform:
   m_ObjectHideFlags: 0
@@ -125875,7 +126518,7 @@ Transform:
   - {fileID: 7693447086083159305}
   m_Father: {fileID: 7693447086083172813}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.27600002, y: -0.046000004, z: 13.272}
 --- !u!1 &7693447086083439879
 GameObject:
   m_ObjectHideFlags: 0
@@ -139038,6 +139681,12 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: toCheckReceiveDamage
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: toCrit
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: toNoCrit
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions:
