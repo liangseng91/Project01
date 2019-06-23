@@ -3172,6 +3172,8 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.Translate
         - HutongGames.PlayMaker.Actions.SetFsmInt
         - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.SetFsmInt
+        - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.CreateObject
         - HutongGames.PlayMaker.Actions.Wait
         customNames:
@@ -3180,10 +3182,12 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0101010101
-        actionStartIndex: 000000000a0000000f0000001300000018000000
-        actionHashCodes: b0327400081bbf055e69bb04bf83c90048c01101
+        - 
+        - 
+        actionEnabled: 01010101010101
+        actionIsOpen: 01010101010101
+        actionStartIndex: 000000000a0000000f00000013000000180000001c00000021000000
+        actionHashCodes: b0327400081bbf055e69bb04081bbf055e69bb04bf83c90048c01101
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 0
@@ -3210,6 +3214,14 @@ MonoBehaviour:
           gameObject:
             useVariable: 1
             name: spawner
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: enemyHit
             tooltip: 
             showInInspector: 1
             networkSync: 0
@@ -3258,6 +3270,38 @@ MonoBehaviour:
             networkSync: 0
             value: 0
           fsmComponent: {fileID: 0}
+        - target: 1
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: enemyHit
+              tooltip: 
+              showInInspector: 1
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
@@ -3273,6 +3317,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: damageReceived
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Action
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: char_KBValue
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -3307,12 +3363,24 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: 0.01
         fsmIntParams:
         - useVariable: 1
           name: totalBaseDamage(float)
           tooltip: 
           showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: char_basicATK_KBValue(parent)
+          tooltip: 
+          showInInspector: 1
           networkSync: 0
           value: 0
         fsmBoolParams: []
@@ -3341,13 +3409,14 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - toDamage
+        - toKnockback
         - FINISHED
-        byteData: 0100000001010000000000
+        byteData: 01000000010100000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001c0000000f0000000f0000000f000000070000000100000001000000010000000100000014000000120000001200000010000000010000001f000000170000000f0000000100000013000000130000001c0000001c000000130000000f0000001700000001000000
+        paramDataType: 140000001c0000000f0000000f0000000f000000070000000100000001000000010000000100000014000000120000001200000010000000010000001f000000170000000f0000000100000014000000120000001200000010000000010000001f000000170000000f0000000100000013000000130000001c0000001c000000130000000f0000001700000001000000
         paramName:
         - gameObject
         - vector
@@ -3369,6 +3438,15 @@ MonoBehaviour:
         - delay
         - everyFrame
         - gameObject
+        - fsmName
+        - variableName
+        - setValue
+        - everyFrame
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        - gameObject
         - spawnPoint
         - position
         - rotation
@@ -3376,8 +3454,8 @@ MonoBehaviour:
         - time
         - finishEvent
         - realTime
-        paramDataPos: 00000000000000000000000001000000020000000000000004000000050000000600000007000000010000000000000001000000000000000800000000000000000000000300000009000000000000000100000001000000020000000200000004000000010000000a000000
-        paramByteDataSize: 000000000000000000000000000000000000000004000000010000000100000001000000010000000000000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000000000000000000001000000020000000000000004000000050000000600000007000000010000000000000001000000000000000800000000000000000000000300000009000000020000000200000003000000010000000a0000000100000001000000040000000b000000000000000100000001000000020000000200000005000000020000000c000000
+        paramByteDataSize: 000000000000000000000000000000000000000004000000010000000100000001000000010000000000000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000
     - name: Check Crit
       description: 
       colorIndex: 0
@@ -3750,6 +3828,8 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetFsmBool
         - HutongGames.PlayMaker.Actions.SetFsmInt
         - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.SetFsmInt
+        - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.CreateObject
         - HutongGames.PlayMaker.Actions.Wait
         customNames:
@@ -3760,10 +3840,12 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 01010101010101
-        actionStartIndex: 000000000a0000000f00000014000000190000001d00000022000000
-        actionHashCodes: b03274000cdb040568fece05081bbf055e69bb04bf83c90048c01101
+        - 
+        - 
+        actionEnabled: 010101010101010101
+        actionIsOpen: 010101010101010101
+        actionStartIndex: 000000000a0000000f00000014000000190000001d00000022000000260000002b000000
+        actionHashCodes: b03274000cdb040568fece05081bbf055e69bb04081bbf055e69bb04bf83c90048c01101
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 0
@@ -3810,10 +3892,50 @@ MonoBehaviour:
             showInInspector: 1
             networkSync: 0
             value: {fileID: 0}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: enemyHit
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams:
+        - target: 1
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: enemyHit
+              tooltip: 
+              showInInspector: 1
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
         - target: 1
           excludeSelf:
             useVariable: 0
@@ -3873,6 +3995,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: damageReceived
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Action
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: char_KBValue
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -3925,12 +4059,24 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: 0.01
         fsmIntParams:
         - useVariable: 1
           name: totalBaseDamage(float)
           tooltip: 
           showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: char_basicATK_KBValue(parent)
+          tooltip: 
+          showInInspector: 1
           networkSync: 0
           value: 0
         fsmBoolParams:
@@ -3965,13 +4111,14 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - toDamage
+        - toKnockback
         - FINISHED
-        byteData: 0100000001010000020000000000000000
+        byteData: 01000000010100000200000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001c0000000f0000000f0000000f00000007000000010000000100000001000000010000000f0000000f000000070000000f00000001000000140000001200000012000000110000000100000014000000120000001200000010000000010000001f000000170000000f0000000100000013000000130000001c0000001c000000130000000f0000001700000001000000
+        paramDataType: 140000001c0000000f0000000f0000000f00000007000000010000000100000001000000010000000f0000000f000000070000000f00000001000000140000001200000012000000110000000100000014000000120000001200000010000000010000001f000000170000000f0000000100000014000000120000001200000010000000010000001f000000170000000f0000000100000013000000130000001c0000001c000000130000000f0000001700000001000000
         paramName:
         - gameObject
         - vector
@@ -4003,6 +4150,15 @@ MonoBehaviour:
         - delay
         - everyFrame
         - gameObject
+        - fsmName
+        - variableName
+        - setValue
+        - everyFrame
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        - gameObject
         - spawnPoint
         - position
         - rotation
@@ -4010,8 +4166,8 @@ MonoBehaviour:
         - time
         - finishEvent
         - realTime
-        paramDataPos: 00000000000000000000000001000000020000000000000004000000050000000600000007000000030000000400000008000000050000000c000000010000000000000001000000000000000d000000020000000200000003000000000000000e0000000000000000000000060000000f0000000000000001000000010000000200000002000000070000000100000010000000
-        paramByteDataSize: 00000000000000000000000000000000000000000400000001000000010000000100000001000000000000000000000004000000000000000100000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000000000000000000001000000020000000000000004000000050000000600000007000000030000000400000008000000050000000c000000010000000000000001000000000000000d000000020000000200000003000000000000000e0000000000000000000000060000000f0000000300000004000000050000000100000010000000010000000100000007000000110000000000000001000000010000000200000002000000080000000200000012000000
+        paramByteDataSize: 00000000000000000000000000000000000000000400000001000000010000000100000001000000000000000000000004000000000000000100000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1

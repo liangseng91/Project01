@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Thief_BasicAttack
   m_EditorClassIdentifier: 
   animationDuration: 0.5
-  cooldown: 1.25
+  cooldown: 1
   critRate: 0.3
   critDamage: 2
-  knockbackValue: 2
+  knockbackValue: 0
